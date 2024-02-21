@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porsche</title>
+    <style>
+        body {
+            background: rgb(70,76,71);
+background: radial-gradient(circle, rgba(70,76,71,1) 0%, rgba(0,0,0,1) 100%);
+        }
+        .main {
+            text-align: center;
+            font-family: fantasy;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            flex-direction: column;
+            align-items: center;
+        }
+        .product {
+            width: 400px;
+            padding: 20px;
+            margin: 20px;
+            text-align: center;
+            border: 1px solid gray;
+            border-radius: 10px;
+            transition: transform 0.3s ease-in-out;
+            font-family:serif;
+            color: #E3AB36;
+        }
+        .product img {
+            width: 100%;
+            border-radius: 10px 10px 0 0;
+            transition: transform 0.3s ease-in-out;
+        }
+        .product h2 {
+            margin: 10px 0;
+            color:#B12B28;
+        }
+        .product p {
+            margin: 5px 0;
+        }
+        .product:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            background-color:  #C29049;
+            color: #B12B28;
+        }
+        .product:hover img {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <header>
+            <a href="https://porsche.com/usa/"><img src="pngimg.com - porsche_logo_PNG9.png"  height="150px" alt="Porsche Logo"></a>
+        </header>
+    </div>
+    <div class="container">
+        <div class="product">
+            <a href="https://www.porsche.com/usa/models/911/">
+                <img src="https://www.supercars.net/blog/wp-content/uploads/2020/07/2020-Porsche-911-Turbo-S-002-2160-scaled.jpg" alt="Porsche 911">
+            </a>
+            <h2>911</h2>
+            <p>Starting at ,1,80,00,000</p>
+            <p>Twin-turbocharged 3.8-liter flat-six engine with 640 horsepower and 590 lb-ft of torque</p>
+            <p>Top speed of 205 mph and 0-60 mph in 2.6 seconds</p>
+        </div>
+        <div class="product">
+            <a href="https://www.porsche.com/usa/models/cayenne/">
+                <img src="https://imgd.aeplcdn.com/1280x720/n/cw/ec/146723/right-front-three-quarter5.jpeg?isig=0&wm=0" alt="Porsche Cayenne">
+            </a>
+            <h2>Cayenne</h2>
+            <p>Starting at 1,20,00,000</p>
+            <p>Turbocharged 3.0-liter V6 engine with 335 horsepower and 332 lb-ft of torque</p>
+            <p>Top speed of 150 mph and 0-60 mph in 5.9 seconds</p>
+        </div>
+        <div class="product">
+            <a href="https://www.porsche.com/usa/models/panamera/"><img src="https://cdn.motor1.com/images/mgl/G3Wzm1/s3/2024-porsche-panamera-turbo-sonderwunsch.jpg" alt="Porsche Panamera"></a>
+            <h2>Panamera</h2>
+            <p>Starting at 1,50,00,000</p>
+            <p>Turbocharged 2.9-liter V6 engine with 325 horsepower and 332 lb-ft of torque</p>
+            <p>Top speed of 168 mph and 0-60 mph in 5.3 seconds</p>
+        </div>
+        <div class="product">
+            <a href="https://configurator.porsche.com/en-US/model-start/718"><img src="https://s.yimg.com/uu/api/res/1.2/rwV8pn2i1R6d82h0oi3aOw--~B/aD0xMzc1O3c9MjI1MDtzbT0xO2FwcGlkPXl0YWNoeW9u/http://media.zenfs.com/en-US/homerun/car_and_driver_581/f4094bca6e050c78042699e4be7575f7" alt="Porsche Taycan"></a>
+            <h2>718</h2>
+            <p>Starting at 1,30,00,000</p>
+            <p>2 liter boxer engine producing 300 horsepower and 280 lb-ft of torque</p>
+            <p>Top speed of 177 mph and 0-60 mph in 4.2 seconds</p>
+        </div>
+        <div class="product">
+            <a href="https://configurator.porsche.com/en-US/model-start/macan"><img src="https://stimg.cardekho.com/images/carexteriorimages/930x620/Porsche/Macan/10974/1690871596474/front-left-side-47.jpg" alt="Porsche Taycan"></a>
+            <h2>Macan</h2>
+            <p>Starting at 80,00,000</p>
+            <p>2 liter engine producing 261 horsepower and 291 lb-ft of torque</p>
+            <p>Top speed of 136 mph and 0-60 mph in 6.3 seconds</p>
+        </div>
+        <div class="product">
+            <a href="https://www.porsche.com/usa/models/taycan/"><img src="https://pictures.porsche.com/rtt/iris?COSY-EU-100-1711coMvsi60AAt5FwcmBEgA4qP8iBUDxPE3Cb9pNXABuN9dMGF4tl3U0%25z8rMHIspbWvanYb%255y%25oq%25vSTmjMXD4qAZeoNBPUSfUx4RmWBisGK7Zlp0KtYYF%25mVSW8uAVbsqYStpP0iO5M5RUHcTCkF0GXoq1rfqr6FObtJ9wRuT0k%25Gx7e2HLec1UBXCfHaYXZaijhwhTCh0Qw9sJRzPf7KP2" alt="Porsche Taycan"></a>
+            <h2>Taycan</h2>
+            <p>Starting at 1,61,00,000</p>
+            <p>Permanent Magnet Synchronous Electric Motor (rear-wheel drive or all-wheel drive) producing 764 hp and 1000 lbf⋅ft of torque.</p>
+            <p>Top speed of 155 mph and 0-60 mph in 3.8 seconds</p>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
